@@ -1,0 +1,47 @@
+nav{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 10vh;
+   background-color:#59FCB8;
+   bottom:  40px;
+}
+nav .vector{
+    position: relative;
+    width: 450px;
+    right: 80px;
+}
+nav .logo{
+    position: relative;
+    max-width:180px;
+    right: 540px;
+    bottom: 10px;
+}
+nav .pl{
+    position: relative;
+    max-width:130px;
+    right: 640px;
+    bottom: 20px;
+}
+nav .nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    list-style-type:none;
+}
+.hyperlink{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+nav .nav-links li{
+    position: relative;
+    right: 50px;
+    bottom: 30px;
+    font-size:20px;
+    cursor: pointer;
+}
+.pl{
+    size: 50px;
+}

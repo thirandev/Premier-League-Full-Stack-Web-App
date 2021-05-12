@@ -1,0 +1,17 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Serve index page from public directory
+GET     /                           controllers.FrontendController.index()
+
+# APIs in LeagueController
+GET     /api/clubs             controllers.LeagueController.listSportsClubs()
+GET     /api/clubs/score             controllers.LeagueController.listSportsClubsByScore()
+GET     /api/clubs/wins             controllers.LeagueController.listSportsClubsByWins()
+GET     /api/matches             controllers.LeagueController.listMatches()
+GET     /api/sportsclub             controllers.LeagueController.listSportsClubs()
+GET     /api/matches/generate        controllers.LeagueController.generateMatch()
+
+# Serve static assets under public directory
+GET     /*file                      controllers.FrontendController.assetOrDefault(file)

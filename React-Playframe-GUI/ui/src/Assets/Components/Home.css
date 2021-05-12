@@ -1,0 +1,25 @@
+.logoNav{
+    position: fixed;
+    width:85%;
+    left:-260px;
+}
+.titleNav{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 54%;
+    width: 30%;
+}
+.tableBtn{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 27%;
+    width: 300px;
+    cursor: pointer;
+}
+.matchesBtn{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 33%;
+    width: 300px;
+    cursor: pointer;
+}
